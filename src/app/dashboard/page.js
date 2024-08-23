@@ -1,7 +1,12 @@
-const Dashboard = () =>{
+import NavButton from "../components/navigation/NavButton";
+
+const Dashboard = () => {
     return (
-        <h1>Dashboard</h1>
+        <div>
+            <h1>Dashboard Page</h1>
+            <NavButton />
+        </div>
     )
-} 
+}
 
 export default Dashboard;
